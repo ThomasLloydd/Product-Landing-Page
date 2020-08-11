@@ -1,0 +1,103 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FFE4C4;
+  text-align:center;
+}
+
+#nav-bar {
+  float: right;
+  z-index:500;
+  position:fixed;
+  overflow: hidden;
+  background-color: #FFE4C4;
+  text-decoration: none;
+
+  top:0;
+  border-style: solid;
+  border-color: #FFF;
+  right:0
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+#features {
+display: flex;
+flex-direction: column;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 35vw;
+
+}
+
+#header-img {
+  float:left;
+  max-height: 100px
+}
+
+h1 {
+  clear:left;
+  display:block;
+}
+
+#pricing {
+  margin-top: 60px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding-left:125px;
+ padding-right:125px;
+}
+
+ul {
+  list-style: none;
+text-align: center;
+width: 76%;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+
+#salt-spoon {
+  background-color: inherit;
+  color: black;
+  padding: 15px 0;
+  width: 30%;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-style: solid;
+  border-color: black;
+}
+#stirring-spoon {
+  background-color: inherit;
+color: black;
+padding: 15px 0;
+width: 30%;
+text-transform: uppercase;
+font-weight: 700;
+border-style: solid;
+border-color: black;
+}
+
+#ladel {
+  background-color: inherit;
+color: black;
+padding: 15px 0;
+width: 30%;
+text-transform: uppercase;
+font-weight: 700;
+border-style: solid;
+border-color: black;
+}
+
+.btn{
+  color: black;
+}
