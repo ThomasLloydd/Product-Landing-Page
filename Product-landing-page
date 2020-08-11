@@ -1,0 +1,91 @@
+<html>
+<head>
+<header id="header">
+<title>Wooden Spoons</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<div class="logo">
+
+<img id="header-img" src="data:image/png;base64,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"
+alt="Wooden spoons logo"/>
+
+<nav id="nav-bar">
+  <ul>
+    <li><a class="nav-link"
+      href="#features">Features</a></li>
+      <li><a class="nav-link"
+        href="#how-theyre-made">How They're Made</a></li>
+        <li><a class="nav-link"
+          href="#Pricing">Pricing</a></li>
+
+</header>
+
+
+<body>
+  <h1>Wooden Spoons</h1>
+  <section id="hero">
+    <h2> Handcarved Masterpieces</h2>
+    <form id="form" action="htts://www.freecopecamp.com/email-submit">
+      <input
+      name="email"
+      id="email"
+      type="email"
+      placeholder="Enter your email"
+      required
+      />
+      <input id="submit" type="submit" value="Get Started"
+      class="btn"/>
+    </form>
+  </section>
+
+    <div class="container">
+    <section id="features">
+    <h3>Premium Wood</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit nisl, vulputate vitae tincidunt vitae, hendrerit ac magna. Phasellus et ultricies ipsum. Sed eu nisi ut odio auctor euismod eleifend quis diam. Donec rutrum justo quis leo sodales iaculis. Proin vulputate nisi in erat vestibulum suscipit. Integer pulvinar metus quis ipsum imperdiet malesuada at eget arcu. Cras et condimentum odio. Curabitur ultricies vestibulum lacus ut efficitur. Praesent risus nunc, consequat nec mollis nec, posuere convallis mauris. Fusce vestibulum eros sed venenatis dignissim. Quisque pellentesque a orci nec sodales. Donec massa ante, condimentum a sodales ac, malesuada egestas enim. Nullam nec lacinia justo. Cras commodo lectus nunc. Aliquam erat volutpat.
+
+Aliquam feugiat dignissim metus ac efficitur. Sed sollicitudin, nunc sit amet varius iaculis, quam augue ullamcorper metus, quis vehicula velit nibh in nunc. Phasellus sit amet nisl vehicula, efficitur diam et, convallis felis. Donec efficitur nibh in nulla elementum venenatis. Suspendisse ultrices eu libero a mattis. Curabitur viverra consequat eros mattis fringilla. Sed auctor rutrum turpis.
+</p>
+<h3>Handcarved</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit nisl, vulputate vitae tincidunt vitae, hendrerit ac magna. Phasellus et ultricies ipsum. Sed eu nisi ut odio auctor euismod eleifend quis diam. Donec rutrum justo quis leo sodales iaculis. Proin vulputate nisi in erat vestibulum suscipit. Integer pulvinar metus quis ipsum imperdiet malesuada at eget arcu. Cras et condimentum odio. Curabitur ultricies vestibulum lacus ut efficitur. Praesent risus nunc, consequat nec mollis nec, posuere convallis mauris. Fusce vestibulum eros sed venenatis dignissim. Quisque pellentesque a orci nec sodales. Donec massa ante, condimentum a sodales ac, malesuada egestas enim. Nullam nec lacinia justo. Cras commodo lectus nunc. Aliquam erat volutpat.
+
+Aliquam feugiat dignissim metus ac efficitur. Sed sollicitudin, nunc sit amet varius iaculis, quam augue ullamcorper metus, quis vehicula velit nibh in nunc. Phasellus sit amet nisl vehicula, efficitur diam et, convallis felis. Donec efficitur nibh in nulla elementum venenatis. Suspendisse ultrices eu libero a mattis. Curabitur viverra consequat eros mattis fringilla. Sed auctor rutrum turpis.</p>
+
+<h3>Fast Shipping</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elit nisl, vulputate vitae tincidunt vitae, hendrerit ac magna. Phasellus et ultricies ipsum. Sed eu nisi ut odio auctor euismod eleifend quis diam. Donec rutrum justo quis leo sodales iaculis. Proin vulputate nisi in erat vestibulum suscipit. Integer pulvinar metus quis ipsum imperdiet malesuada at eget arcu. Cras et condimentum odio. Curabitur ultricies vestibulum lacus ut efficitur. Praesent risus nunc, consequat nec mollis nec, posuere convallis mauris. Fusce vestibulum eros sed venenatis dignissim. Quisque pellentesque a orci nec sodales. Donec massa ante, condimentum a sodales ac, malesuada egestas enim. Nullam nec lacinia justo. Cras commodo lectus nunc. Aliquam erat volutpat.
+
+Aliquam feugiat dignissim metus ac efficitur. Sed sollicitudin, nunc sit amet varius iaculis, quam augue ullamcorper metus, quis vehicula velit nibh in nunc. Phasellus sit amet nisl vehicula, efficitur diam et, convallis felis. Donec efficitur nibh in nulla elementum venenatis. Suspendisse ultrices eu libero a mattis. Curabitur viverra consequat eros mattis fringilla. Sed auctor rutrum turpis.</p>
+
+
+</section>
+
+<section id="how-theyre-made">
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/N6GLVE1JONc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section id="Pricing">
+  <div id="salt-spoon" class="product">
+    <h3>Salt Spoon</h3>
+    <h2>£10</h2>
+    <ul>
+      <li>Bla bla bla</li><li>Bla bla bla</li><li>Bla bla bla</li></ul>
+      <button class="btn">Buy Now</button>
+  </div>
+  <div id="stirring-spoon" class="product"><h3>Stirring Spoon</h3>
+        <h2>£20</h2>
+    <ul>
+      <li>Bla bla bla</li><li>Bla bla bla</li><li>Bla bla bla</li></ul>
+      <button class="btn">Buy Now</button></div>
+  <div id="ladel" class="product"><h3>Ladel</h3>
+        <h2>£30</h2>
+    <ul>
+      <li>Bla bla bla</li><li>Bla bla bla</li><li>Bla bla bla</li></ul>
+      <button class="btn">Buy Now</button></div>
+
+
+
+
+
+
+
+</body>
+</html>
